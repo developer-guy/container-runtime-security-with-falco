@@ -104,7 +104,7 @@ We will test the following Falco rule, it will basically log the intrusion detai
     shell=%proc.name parent=%proc.pname cmdline=%proc.cmdline terminal=%proc.tty container_id=%container.id image=%container.image.repository)
   priority: NOTICE
   tags: [container, shell, mitre_execution]
-``
+```
 
 To test this kind of scanerio, first, we will create a pod called nginx, then, we attach to that pod using "exec", after that once you access the Falco's logs, you should notice that a message above is available within the logs.
 ```bash
