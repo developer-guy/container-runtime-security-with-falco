@@ -1,4 +1,4 @@
-# A demonstration of usage Container Runtime Security Tool called "Falco."
+# A demonstration of usage Container Runtime Security Tool called "Falco"
 Enhance Container Runtime Security using the container runtime security tool "Falco."
 
 ### Prerequisites
