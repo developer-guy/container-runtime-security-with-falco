@@ -1,3 +1,6 @@
+![kubernetesresponseengine](./falco_kubernetes_response_engine.png)
+This repository is made up with two part, in the first part, we will give you a quick introduction about the Falco project then in the second part we will demonstrate how we can add prevention support to the Falco using a technique called "Kubernetes Response Engine".
+
 # A demonstration of usage Container Runtime Security Tool called "Falco"
 Enhance Container Runtime Security using the container runtime security tool "Falco."
 
