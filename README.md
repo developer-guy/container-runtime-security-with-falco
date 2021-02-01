@@ -1,4 +1,7 @@
 ![kubernetesresponseengine](./falco_kubernetes_response_engine.png)
+
+> Credit: https://thenewstack.io/ebpf-tools-an-overview-of-falco-inspektor-gadget-hubble-and-cilium/ <br/>
+
 This repository is made up with two part, in the first part, we will give you a quick introduction about the Falco project then in the second part we will demonstrate how we can add prevention support to the Falco using a technique called "Kubernetes Response Engine".
 
 # A demonstration of usage Container Runtime Security Tool called "Falco"
@@ -6,9 +9,9 @@ Enhance Container Runtime Security using the container runtime security tool "Fa
 
 ### Prerequisites
 To be able to set up our environment correctly, we need the following tools:
-* kubectl
-* minikube
-* helm
+* kubectl v1.20.2
+* minikube v1.17.1
+* helm v3.5.1
 
 Also, we assume that you have a basic knowledge of the Kubernetes and containers terminology. If you don't have any experience with the Kubernetes and containers, this demo is not for you, so please start with the essentials about the Kubernetes and containers first. After that, once you feel more comfortable with the Kubernetes and containers, try this demo to learn how you can prevent your environment for anomalous activities.
 
